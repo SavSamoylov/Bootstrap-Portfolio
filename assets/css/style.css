@@ -1,3 +1,9 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 .aboutSection{
 	border:1px solid #dddddd;
 	padding-bottom: 20px;
@@ -5,6 +11,24 @@
 
 .page-header{
 	margin-top: 0;
+}
+
+.pItems .thumbnail{
+	position: relative;
+}
+
+.tbHeading{
+	position:absolute;
+	width:100%;
+	bottom:35px;
+	left:0;
+	background: #337ab7;
+	padding:10px;
+	text-align: center;
+}
+
+a .tbHeading{
+	color: #ffffff;
 }
 
 /* Sticky footer styles
